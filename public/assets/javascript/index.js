@@ -39,7 +39,7 @@ $(document).read(function(){
         "</h3>",
         "</div>",
         "</div>"
-      ].join(''));
+      ].join(""));
 
     panel.data("_id", article._id);
     return panel;
