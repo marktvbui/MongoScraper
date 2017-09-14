@@ -3,7 +3,7 @@ var scrape = require('../scripts/scrape');
 var makeDate = require('../scripts/date');
 
 // bringing the headline and note mongoose models
-var HeadLine = require('..models/Headline');
+var HeadLine = require('../models/Headline');
 
 module.exports = {
   fetch: function(cb) {
